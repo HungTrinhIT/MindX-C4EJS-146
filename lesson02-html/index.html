@@ -1,0 +1,158 @@
+<!-- Thẻ HTML -->
+<!-- HTML Tag, HTML Element -->
+
+<!-- 
+    HTML - Hypertext Markup Language
+        + Ngôn ngữ đánh dấu siêu văn bản
+        + KHÔNG PHẢI LÀ "Ngôn Ngữ Lập Trình"
+
+    <tagname>Nội dung hiển thị ra web </tagname>
+    + <tagname>: thẻ mở opening-tag
+    + </tagname>: thẻ đóng closing-tag    
+ -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lesson 02: HTML cơ bản</title>
+
+    <!-- Thẻ tự đóng  (self-closing tab) -->
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <h1>Buổi học 02: HTML cơ bản</h1>
+
+    <!-- Heading Tag -->
+    <h1>Heading 1 (Thẻ tiêu đề 1)</h1>
+    <h2>Heading 2 (Thẻ tiêu đề 2)</h2>
+    <h3>Heading 3 (Thẻ tiêu đề 3)</h3>
+    <h4>Heading 4 (Thẻ tiêu đề 4)</h4>
+    <h5>Heading 5 (Thẻ tiêu đề 5)</h5>
+    <h6>Heading 6 (Thẻ tiêu đề 6)</h6>
+
+    <!-- Paragraph tag (thẻ chứa đoạn văn bản) -->
+    <!-- Code cho no SEO -->
+    <p>
+        Sau hơn một năm huy động thành công nguồn vốn 3 triệu USD tại vòng Series
+        A, MindX vẫn luôn tiến về phía trước, với sứ mệnh đưa Công nghệ - Kỹ thuật
+        số đến với thế hệ trẻ Việt Nam và thế giới,
+    </p>
+    <p>
+        <i>Hướng đến mục tiêu</i> phát triển bền vững và lâu dài, cũng như xây dựng nền
+        móng cho những kế hoạch bứt phá trong tương lai, MindX tiếp tục thử thách
+        với vòng huy động vốn <strong>Series B</strong> diễn ra vào năm 2023.
+    </p>
+
+    <span>
+        <del>Đây là thẻ span 1</del>
+    </span>
+    <span>Đây là thẻ span 2</span>
+    <span>Đây là thẻ span 3</span>
+    <span>Đây là thẻ span 3</span>
+    <span>Đây là thẻ span 3</span>
+    <span>Đây là thẻ span 3</span>
+    <span>Đây là thẻ span 3</span>
+    <span>Đây là thẻ span 3</span>
+    <span>Đây là thẻ span 3</span>
+
+    <b>Thẻ b</b>
+    <strong>Thẻ strong</strong>
+    <i>Thẻ i</i>
+
+    <p>
+        H<sub>2</sub>0
+    </p>
+    <p>
+        (a+b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup>
+    </p>
+    <br>
+
+    <!-- Thẻ hyperlink, thẻ anchor -->
+    <!-- href: thuộc tính href, HTML Attributes -->
+    <p>
+        <a href="https://google.com" target="_blank">Link đến Google</a>
+    </p>
+    <p>
+        <a href="https://facebook.com">Link đến Facebook</a>
+    </p>
+
+    <!-- Danh sách: List -->
+    <!-- Order list: danh sách có thứ tự -->
+    <h6>To do list</h6>
+    <ol>
+        <li>Học HTML</li>
+        <li>Làm bài tập HTML</li>
+        <li>Đi đánh cầu lông</li>
+        <li>Đi ngủ</li>
+    </ol>
+
+    <!-- Un-order list -->
+    <h6>Các đầu mục để trở thành 1 Frontend Developer</h6>
+    <ul>
+        <li>Học <strong>HTML</strong>
+            <ol>
+                <li>Tải VSCode</li>
+                <li>Lên MindX đăng ký khoá học</li>
+                <li>Gặp Giảng Viên Hùng để được truyền bí kíp</li>
+                <li>Lương $4000</li>
+            </ol>
+        </li>
+        <li>Học <strong>CSS</strong></li>
+        <li>Học JS</li>
+        <li>Học <i>Networking</i></li>
+        <li>Làm việc nhóm</li>
+        <li>Thư viện ReactJS</li>
+        <li>Thư viện Tailwindcss</li>
+    </ul>
+
+    <!-- Table Bảng trong HTML -->
+    <h2>HTML Table</h2>
+
+    <table>
+        <!-- Table head -->
+        <thead>
+            <!-- Table row -->
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+
+            <tr>
+                <td>VNG</td>
+                <td>Quận 7</td>
+                <td>Việt Nam</td>
+            </tr>
+            <tr>
+                <td>Tiktok</td>
+                <td>Singapore</td>
+                <td>China</td>
+            </tr>
+            <tr></tr>
+        </tbody>
+    </table>
+
+    <!-- HTML media -->
+    <!-- Image tag: self-closing tag, inline -->
+    <img width="400" height="100%"
+        src="https://cdn.tuoitre.vn/471584752817336320/2023/1/14/haaland-ngay-13-1-1read-only-1673658314858718428662.jpg">
+    <br>
+    <img width="400" height="100%" src="./images/image-2.jpeg">
+    <img width="200" height="100%" src="./images/image-3.jpg">
+
+</html>
+
+<!-- 
+    2 loại thẻ:
+        + Thẻ block
+        + Thẻ inline
+ -->
