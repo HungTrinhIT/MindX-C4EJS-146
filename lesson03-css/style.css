@@ -1,0 +1,38 @@
+/* Selector Basic
+    1. Tag name: đúng tên tag name
+    2. Class name: thêm dấu chấm "."
+    3. ID: thêm dấu thăng "#"
+*/
+
+/* External CSS */
+header {
+  background-color: black;
+  color: white;
+}
+
+/* Selector */
+/* Selector đến một HTML tag */
+h1 {
+  background-color: aquamarine;
+  color: red;
+}
+
+.nav-item {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Selector đến một class trong file html */
+/* Đối với class là dấu chấm "." */
+.introduction {
+  background-color: blueviolet;
+  font-size: 32px;
+}
+
+#footer {
+  background-color: darkseagreen;
+  text-decoration: line-through;
+}
