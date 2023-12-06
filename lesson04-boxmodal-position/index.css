@@ -1,0 +1,67 @@
+.box1 {
+  width: 400px;
+  height: 250px;
+  background-color: red;
+  padding: 40px;
+  border: 20px solid black;
+}
+
+.box2 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  color: white;
+
+  /* 4 phía có padding là 24px */
+  /* padding: 24px;
+  padding-bottom: 40px; */
+  padding: 24px 24px 40px 24px;
+
+  /* margin-top: 24px;
+  margin-bottom: 12px;
+  margin-left: 10px;
+  margin-right: 40px; */
+  margin: 24px 40px 12px 10px;
+}
+
+.box3 {
+  width: 300px;
+  height: 140px;
+  background-color: greenyellow;
+  padding: 40px 80px; /*y x*/
+}
+
+.box4 {
+  background-color: sienna;
+  color: white;
+  width: 200px;
+  height: 200px;
+
+  /* top  left-right bottom */
+  padding: 20px 40px 16px;
+}
+
+.box5 {
+  background-color: aquamarine;
+  font-size: 20px;
+  text-decoration: line-through;
+  width: 300px;
+  height: 240px;
+
+  /* border */
+  /* border-style: solid;
+  border-width: 20px;
+  border-color: red; */
+  border: 20px solid red;
+  border-top: 10px dotted blue;
+  /* border-left: ;
+  border-right: ;
+  border-bottom: ; */
+}
+
+.circle {
+  margin-top: 100px;
+  width: 300px;
+  height: 300px;
+  background-color: cadetblue;
+}
